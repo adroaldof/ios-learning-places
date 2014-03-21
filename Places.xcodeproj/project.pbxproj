@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */; };
+		23EFDFBC18DCC1850068772C /* CityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFBB18DCC1850068772C /* CityVC.m */; };
+		23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBD18DCC6AF0068772C /* map-pin.png */; };
+		23EFDFC018DCC6E40068772C /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBF18DCC6E40068772C /* star.png */; };
+		23EFDFC218DCC7C10068772C /* direction-path.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFC118DCC7C10068772C /* direction-path.png */; };
 		23F3556F18DB3314009D844A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3556E18DB3314009D844A /* Foundation.framework */; };
 		23F3557118DB3314009D844A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3557018DB3314009D844A /* CoreGraphics.framework */; };
 		23F3557318DB3314009D844A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3557218DB3314009D844A /* UIKit.framework */; };
@@ -15,7 +20,7 @@
 		23F3557F18DB3314009D844A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3557E18DB3314009D844A /* AppDelegate.m */; };
 		23F3558218DB3314009D844A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F3558018DB3314009D844A /* Main_iPhone.storyboard */; };
 		23F3558518DB3314009D844A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F3558318DB3314009D844A /* Main_iPad.storyboard */; };
-		23F3558818DB3314009D844A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3558718DB3314009D844A /* ViewController.m */; };
+		23F3558818DB3314009D844A /* PlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3558718DB3314009D844A /* PlaceVC.m */; };
 		23F3558A18DB3314009D844A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F3558918DB3314009D844A /* Images.xcassets */; };
 		23F3559118DB3314009D844A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3559018DB3314009D844A /* XCTest.framework */; };
 		23F3559218DB3314009D844A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3556E18DB3314009D844A /* Foundation.framework */; };
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPlacesVC.h; sourceTree = "<group>"; };
+		23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPlacesVC.m; sourceTree = "<group>"; };
+		23EFDFBA18DCC1850068772C /* CityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityVC.h; sourceTree = "<group>"; };
+		23EFDFBB18DCC1850068772C /* CityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityVC.m; sourceTree = "<group>"; };
+		23EFDFBD18DCC6AF0068772C /* map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-pin.png"; path = "../../Documents/iconbeast lite - png/map-pin.png"; sourceTree = "<group>"; };
+		23EFDFBF18DCC6E40068772C /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "../../Documents/iconbeast lite - png/star.png"; sourceTree = "<group>"; };
+		23EFDFC118DCC7C10068772C /* direction-path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "direction-path.png"; path = "../../Documents/iconbeast lite - png/direction-path.png"; sourceTree = "<group>"; };
 		23F3556B18DB3314009D844A /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F3556E18DB3314009D844A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		23F3557018DB3314009D844A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +59,8 @@
 		23F3557E18DB3314009D844A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		23F3558118DB3314009D844A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		23F3558418DB3314009D844A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		23F3558618DB3314009D844A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23F3558718DB3314009D844A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23F3558618DB3314009D844A /* PlaceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceVC.h; sourceTree = "<group>"; };
+		23F3558718DB3314009D844A /* PlaceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceVC.m; sourceTree = "<group>"; };
 		23F3558918DB3314009D844A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23F3558F18DB3314009D844A /* PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F3559018DB3314009D844A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -98,6 +110,12 @@
 		23EFDFB618DCC0370068772C /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				23F3558618DB3314009D844A /* PlaceVC.h */,
+				23F3558718DB3314009D844A /* PlaceVC.m */,
+				23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */,
+				23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */,
+				23EFDFBA18DCC1850068772C /* CityVC.h */,
+				23EFDFBB18DCC1850068772C /* CityVC.m */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -109,6 +127,9 @@
 				23F3559618DB3314009D844A /* PlacesTests */,
 				23F3556D18DB3314009D844A /* Frameworks */,
 				23F3556C18DB3314009D844A /* Products */,
+				23EFDFBD18DCC6AF0068772C /* map-pin.png */,
+				23EFDFBF18DCC6E40068772C /* star.png */,
+				23EFDFC118DCC7C10068772C /* direction-path.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,8 +163,6 @@
 				23F3557E18DB3314009D844A /* AppDelegate.m */,
 				23F3558018DB3314009D844A /* Main_iPhone.storyboard */,
 				23F3558318DB3314009D844A /* Main_iPad.storyboard */,
-				23F3558618DB3314009D844A /* ViewController.h */,
-				23F3558718DB3314009D844A /* ViewController.m */,
 				23F3558918DB3314009D844A /* Images.xcassets */,
 				23F3557518DB3314009D844A /* Supporting Files */,
 			);
@@ -257,8 +276,11 @@
 			files = (
 				23F3558518DB3314009D844A /* Main_iPad.storyboard in Resources */,
 				23F3558A18DB3314009D844A /* Images.xcassets in Resources */,
+				23EFDFC218DCC7C10068772C /* direction-path.png in Resources */,
 				23F3558218DB3314009D844A /* Main_iPhone.storyboard in Resources */,
+				23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */,
 				23F3557918DB3314009D844A /* InfoPlist.strings in Resources */,
+				23EFDFC018DCC6E40068772C /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F3558818DB3314009D844A /* ViewController.m in Sources */,
+				23F3558818DB3314009D844A /* PlaceVC.m in Sources */,
+				23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */,
 				23F3557F18DB3314009D844A /* AppDelegate.m in Sources */,
+				23EFDFBC18DCC1850068772C /* CityVC.m in Sources */,
 				23F3557B18DB3314009D844A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
