@@ -81,6 +81,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23EFDFB418DCC02A0068772C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		23EFDFB518DCC0310068772C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		23EFDFB618DCC0370068772C /* Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
 		23F3556218DB3314009D844A = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +135,9 @@
 		23F3557418DB3314009D844A /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				23EFDFB618DCC0370068772C /* Control */,
+				23EFDFB518DCC0310068772C /* View */,
+				23EFDFB418DCC02A0068772C /* Model */,
 				23F3557D18DB3314009D844A /* AppDelegate.h */,
 				23F3557E18DB3314009D844A /* AppDelegate.m */,
 				23F3558018DB3314009D844A /* Main_iPhone.storyboard */,
@@ -474,6 +498,7 @@
 				23F355A218DB3314009D844A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23F355A318DB3314009D844A /* Build configuration list for PBXNativeTarget "PlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +507,7 @@
 				23F355A518DB3314009D844A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
