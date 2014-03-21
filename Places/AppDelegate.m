@@ -7,13 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "PlaceVC.h"
+#import "InterestingPlacesVC.h"
+#import "CityVC.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    PlaceVC *placeVC = [[PlaceVC alloc] init];
+    UINavigationController *placeNavCtrl = [[UINavigationController alloc] initWithRootViewController:placeVC];
+
+    InterestingPlacesVC *interestingPlacesVC = [[InterestingPlacesVC alloc] init];
+    UINavigationController *interestingPlacesNaviCtrl = [[UINavigationController alloc] initWithRootViewController:interestingPlacesVC];
+
+    CityVC *cityVC = [[CityVC alloc] init];
+    UINavigationController *cityNavCtrl = [[UINavigationController alloc] initWithRootViewController:cityVC];
+
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    [tabBarController setViewControllers:@[] animated:YES];
+    [tabBarController setViewControllers:@[placeNavCtrl, interestingPlacesNaviCtrl, cityNavCtrl] animated:YES];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;
