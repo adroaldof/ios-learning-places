@@ -27,8 +27,6 @@
 		23F3557918DB3314009D844A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23F3557718DB3314009D844A /* InfoPlist.strings */; };
 		23F3557B18DB3314009D844A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3557A18DB3314009D844A /* main.m */; };
 		23F3557F18DB3314009D844A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3557E18DB3314009D844A /* AppDelegate.m */; };
-		23F3558218DB3314009D844A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F3558018DB3314009D844A /* Main_iPhone.storyboard */; };
-		23F3558518DB3314009D844A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F3558318DB3314009D844A /* Main_iPad.storyboard */; };
 		23F3558818DB3314009D844A /* PlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3558718DB3314009D844A /* PlaceVC.m */; };
 		23F3558A18DB3314009D844A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F3558918DB3314009D844A /* Images.xcassets */; };
 		23F3559118DB3314009D844A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3559018DB3314009D844A /* XCTest.framework */; };
@@ -85,8 +83,6 @@
 		23F3557C18DB3314009D844A /* Places-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Places-Prefix.pch"; sourceTree = "<group>"; };
 		23F3557D18DB3314009D844A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23F3557E18DB3314009D844A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23F3558118DB3314009D844A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		23F3558418DB3314009D844A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		23F3558618DB3314009D844A /* PlaceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceVC.h; sourceTree = "<group>"; };
 		23F3558718DB3314009D844A /* PlaceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceVC.m; sourceTree = "<group>"; };
 		23F3558918DB3314009D844A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -216,8 +212,6 @@
 				23EFDFB418DCC02A0068772C /* Model */,
 				23F3557D18DB3314009D844A /* AppDelegate.h */,
 				23F3557E18DB3314009D844A /* AppDelegate.m */,
-				23F3558018DB3314009D844A /* Main_iPhone.storyboard */,
-				23F3558318DB3314009D844A /* Main_iPad.storyboard */,
 				23F3558918DB3314009D844A /* Images.xcassets */,
 				23EFDFEF18DDFC690068772C /* AFNetworking */,
 				23F3557518DB3314009D844A /* Supporting Files */,
@@ -330,10 +324,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F3558518DB3314009D844A /* Main_iPad.storyboard in Resources */,
 				23F3558A18DB3314009D844A /* Images.xcassets in Resources */,
 				23EFDFC218DCC7C10068772C /* direction-path.png in Resources */,
-				23F3558218DB3314009D844A /* Main_iPhone.storyboard in Resources */,
 				23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */,
 				23F3557918DB3314009D844A /* InfoPlist.strings in Resources */,
 				23EFDFC018DCC6E40068772C /* star.png in Resources */,
@@ -397,22 +389,6 @@
 				23F3557818DB3314009D844A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		23F3558018DB3314009D844A /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23F3558118DB3314009D844A /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		23F3558318DB3314009D844A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23F3558418DB3314009D844A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		23F3559918DB3314009D844A /* InfoPlist.strings */ = {
