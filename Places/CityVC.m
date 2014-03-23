@@ -29,6 +29,10 @@
     [super viewDidLoad];
 	self.city = [[City alloc] init];
 
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(dataRetrieved)
+                                                 name:@"initWithJSONFinishLoading"
+                                               object:nil];
 }
 
 - (void)loadView
