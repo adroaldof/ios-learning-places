@@ -27,7 +27,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	self.city = [[City alloc] init];
+
+}
+
 - (void)loadView
 {
     CGRect viewRect = [[UIScreen mainScreen] bounds];
