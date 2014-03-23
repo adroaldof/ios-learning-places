@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CityView.h"
 
 @interface CityVC : UIViewController
+
+@property (strong, nonatomic) CityView *cityView;
 
 @end

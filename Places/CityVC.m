@@ -28,6 +28,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+- (void)loadView
+{
+    CGRect viewRect = [[UIScreen mainScreen] bounds];
+    self.cityView = [[CityView alloc] initWithFrame:viewRect];
+    self.view = self.cityView;
 }
 
 - (void)didReceiveMemoryWarning
