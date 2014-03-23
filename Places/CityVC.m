@@ -41,7 +41,13 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (void)dataRetrieved
+{
+    self.cityView.nameLabel.text = self.city.name;
+    self.cityView.stateLabel.text = [[NSString alloc] initWithFormat:@"State: %@", self.city.state];
+    self.cityView.populationLabel.text = [[NSString alloc] initWithFormat:@"Population: %@", [self.city.population description]];
 }
 
 @end

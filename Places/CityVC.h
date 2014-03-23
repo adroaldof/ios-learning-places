@@ -15,4 +15,6 @@
 @property (strong, nonatomic) City *city;
 @property (strong, nonatomic) CityView *cityView;
 
+- (void)dataRetrieved;
+
 @end
