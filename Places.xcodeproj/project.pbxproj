@@ -12,6 +12,7 @@
 		23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBD18DCC6AF0068772C /* map-pin.png */; };
 		23EFDFC018DCC6E40068772C /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBF18DCC6E40068772C /* star.png */; };
 		23EFDFC218DCC7C10068772C /* direction-path.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFC118DCC7C10068772C /* direction-path.png */; };
+		23EFDFC518DCCA590068772C /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFC418DCCA590068772C /* Place.m */; };
 		23EFE00318DDFC690068772C /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF118DDFC690068772C /* AFHTTPClient.m */; };
 		23EFE00418DDFC690068772C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF318DDFC690068772C /* AFHTTPRequestOperation.m */; };
 		23EFE00518DDFC690068772C /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF518DDFC690068772C /* AFImageRequestOperation.m */; };
@@ -55,6 +56,8 @@
 		23EFDFBD18DCC6AF0068772C /* map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-pin.png"; path = "../../Documents/iconbeast lite - png/map-pin.png"; sourceTree = "<group>"; };
 		23EFDFBF18DCC6E40068772C /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "../../Documents/iconbeast lite - png/star.png"; sourceTree = "<group>"; };
 		23EFDFC118DCC7C10068772C /* direction-path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "direction-path.png"; path = "../../Documents/iconbeast lite - png/direction-path.png"; sourceTree = "<group>"; };
+		23EFDFC318DCCA590068772C /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		23EFDFC418DCCA590068772C /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 		23EFDFF018DDFC690068772C /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		23EFDFF118DDFC690068772C /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		23EFDFF218DDFC690068772C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 		23EFDFB418DCC02A0068772C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				23EFDFC318DCCA590068772C /* Place.h */,
+				23EFDFC418DCCA590068772C /* Place.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				23EFE00B18DDFC690068772C /* UIImageView+AFNetworking.m in Sources */,
 				23EFE00318DDFC690068772C /* AFHTTPClient.m in Sources */,
 				23EFE00818DDFC690068772C /* AFPropertyListRequestOperation.m in Sources */,
+				23EFDFC518DCCA590068772C /* Place.m in Sources */,
 				23EFDFBC18DCC1850068772C /* CityVC.m in Sources */,
 				23F3557B18DB3314009D844A /* main.m in Sources */,
 				23EFE00718DDFC690068772C /* AFNetworkActivityIndicatorManager.m in Sources */,
