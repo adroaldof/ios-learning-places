@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234E66AD18E082410088A416 /* PlaceTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E66AC18E082410088A416 /* PlaceTableVC.m */; };
 		23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */; };
 		23EFDFBC18DCC1850068772C /* CityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFBB18DCC1850068772C /* CityVC.m */; };
 		23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBD18DCC6AF0068772C /* map-pin.png */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		234E66AB18E082410088A416 /* PlaceTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableVC.h; sourceTree = "<group>"; };
+		234E66AC18E082410088A416 /* PlaceTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableVC.m; sourceTree = "<group>"; };
 		23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPlacesVC.h; sourceTree = "<group>"; };
 		23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPlacesVC.m; sourceTree = "<group>"; };
 		23EFDFBA18DCC1850068772C /* CityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityVC.h; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 			children = (
 				23F3558618DB3314009D844A /* PlaceVC.h */,
 				23F3558718DB3314009D844A /* PlaceVC.m */,
+				234E66AB18E082410088A416 /* PlaceTableVC.h */,
+				234E66AC18E082410088A416 /* PlaceTableVC.m */,
 				23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */,
 				23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */,
 				23EFDFBA18DCC1850068772C /* CityVC.h */,
@@ -373,6 +378,7 @@
 				23EFE00718DDFC690068772C /* AFNetworkActivityIndicatorManager.m in Sources */,
 				23EFE00418DDFC690068772C /* AFHTTPRequestOperation.m in Sources */,
 				23EFE00A18DDFC690068772C /* AFXMLRequestOperation.m in Sources */,
+				234E66AD18E082410088A416 /* PlaceTableVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
