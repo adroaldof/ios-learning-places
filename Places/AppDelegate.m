@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "PlaceVC.h"
+#import "PlaceTableVC.h"
 #import "InterestingPlacesVC.h"
 #import "CityVC.h"
 
@@ -15,7 +15,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    PlaceVC *placeVC = [[PlaceVC alloc] init];
+    PlaceTableVC *placeVC = [[PlaceTableVC alloc] init];
     UINavigationController *placeNavCtrl = [[UINavigationController alloc] initWithRootViewController:placeVC];
 
     InterestingPlacesVC *interestingPlacesVC = [[InterestingPlacesVC alloc] init];
