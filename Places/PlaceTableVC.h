@@ -11,6 +11,5 @@
 @interface PlaceTableVC : UITableViewController
 
 @property (strong, nonatomic) NSArray *places;
-@property (strong, nonatomic) NSArray *descriptions;
 
 @end
