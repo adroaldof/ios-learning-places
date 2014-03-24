@@ -7,6 +7,7 @@
 //
 
 #import "Place.h"
+#import "PlaceVC.h"
 #import "PlaceTableVC.h"
 #import "AFJSONRequestOperation.h"
 
@@ -88,6 +89,16 @@
     cell.textLabel.text = [[self.places objectAtIndex:indexPath.row] name];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+
+    PlaceVC *placeVC = [[PlaceVC alloc] init];
+    [placeVC setPlace:self.places[indexPath.row]];
+
+    [self.navigationController pushViewController:placeVC animated:YES];
 }
 
 /*
