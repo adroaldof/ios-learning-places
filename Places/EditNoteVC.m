@@ -26,6 +26,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithRed:0.185 green:0.64 blue:0.66 alpha:1.0];
+
+    self.scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    self.scrollView.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    self.scrollView.contentSize = CGSizeMake(320, 520);
+    [self.view addSubview:self.scrollView];
+
+    self.notesLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 90, 280, 40)];
+    self.notesLabel.text = @"Edit note";
+    [self.scrollView addSubview:self.notesLabel];
+
+    self.notesField = [[UITextField alloc] initWithFrame:CGRectMake(10, 130, 290, 30)];
+    self.notesField.keyboardType = UIKeyboardTypeDefault;
+    self.notesField.borderStyle = UITextBorderStyleRoundedRect;
+    self.notesField.delegate = self;
+    [self.scrollView addSubview:self.notesField];
+
 }
 
 - (void)didReceiveMemoryWarning
