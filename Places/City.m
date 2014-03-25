@@ -31,6 +31,7 @@
             self.name = JSON[@"name"];
             self.state = JSON[@"state"];
             self.population = JSON[@"population"];
+            self.notes = @"No notes yet";
 
             [[NSNotificationCenter defaultCenter] postNotificationName:@"initWithJSONFinishLoading" object:Nil];
 

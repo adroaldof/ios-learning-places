@@ -13,6 +13,7 @@
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *state;
 @property (strong, nonatomic) NSNumber *population;
+@property (strong, nonatomic) NSString *notes;
 
 - (id)initWithJSON;
 
