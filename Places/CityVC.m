@@ -88,9 +88,10 @@
 
 - (void)dataRetrieved
 {
-    self.cityView.nameLabel.text = self.city.name;
-    self.cityView.stateLabel.text = [[NSString alloc] initWithFormat:@"State: %@", self.city.state];
-    self.cityView.populationLabel.text = [[NSString alloc] initWithFormat:@"Population: %@", [self.city.population description]];
+    self.nameLabel.text = self.city.name;
+    self.stateData.text = self.city.state;
+    self.populationData.text = [self.city.population description];
+    self.notesData.text = self.city.notes;
 }
 
 @end
