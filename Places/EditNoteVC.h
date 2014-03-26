@@ -17,4 +17,6 @@
 @property (strong, nonatomic) UILabel *notesLabel;
 @property (strong, nonatomic) UITextField *notesField;
 
+- (void)savePressed;
+
 @end

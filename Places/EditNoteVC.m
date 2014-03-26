@@ -43,6 +43,11 @@
     self.notesField.delegate = self;
     [self.scrollView addSubview:self.notesField];
 
+    UIButton *saveNotes = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    saveNotes.frame = CGRectMake(10, 170, 290, 30);
+    [saveNotes setTitle:@"Save Note" forState:UIControlStateNormal];
+    [saveNotes addTarget:self action:@selector(savePressed) forControlEvents:UIControlEventTouchUpInside];
+    [self.scrollView addSubview:saveNotes];
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,6 +59,12 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     self.notesField.text = self.city.notes;
+}
+
+- (void)savePressed
+{
+    self.city.notes = self.notesField.text;
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
