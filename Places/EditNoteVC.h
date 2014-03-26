@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "City.h"
 
-@interface EditNoteVC : UIViewController
+@interface EditNoteVC : UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) City *city;
 

@@ -67,4 +67,11 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    self.city.notes = self.notesField.text;
+    [textField resignFirstResponder];
+    return YES;
+}
+
 @end
