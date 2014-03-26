@@ -77,6 +77,12 @@
                                              selector:@selector(dataRetrieved)
                                                  name:@"initWithJSONFinishLoading"
                                                object:nil];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(enteringBackground)
+                                                 name:UIApplicationDidEnterBackgroundNotification
+                                               object:nil];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -98,4 +104,10 @@
     editNoteVC.city = self.city;
     [self presentViewController:editNoteVC animated:YES completion:nil];
 }
+
+- (void)enteringBackground
+{
+    [City saveCity:self.city];
+}
+
 @end

@@ -23,5 +23,6 @@
 @property (strong, nonatomic) UILabel *notesData;
 
 - (void)dataRetrieved;
+- (void)enteringBackground;
 
 @end
