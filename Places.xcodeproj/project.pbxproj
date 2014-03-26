@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23AD7E8818E1C0BA002950CF /* EditNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD7E8718E1C0BA002950CF /* EditNoteVC.m */; };
 		23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */; };
 		23EFDFBC18DCC1850068772C /* CityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFBB18DCC1850068772C /* CityVC.m */; };
 		23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBD18DCC6AF0068772C /* map-pin.png */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23AD7E8618E1C0BA002950CF /* EditNoteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNoteVC.h; sourceTree = "<group>"; };
+		23AD7E8718E1C0BA002950CF /* EditNoteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNoteVC.m; sourceTree = "<group>"; };
 		23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPlacesVC.h; sourceTree = "<group>"; };
 		23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPlacesVC.m; sourceTree = "<group>"; };
 		23EFDFBA18DCC1850068772C /* CityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityVC.h; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */,
 				23EFDFBA18DCC1850068772C /* CityVC.h */,
 				23EFDFBB18DCC1850068772C /* CityVC.m */,
+				23AD7E8618E1C0BA002950CF /* EditNoteVC.h */,
+				23AD7E8718E1C0BA002950CF /* EditNoteVC.m */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				23EFE00618DDFC690068772C /* AFJSONRequestOperation.m in Sources */,
 				23F3557F18DB3314009D844A /* AppDelegate.m in Sources */,
 				23EFE00B18DDFC690068772C /* UIImageView+AFNetworking.m in Sources */,
+				23AD7E8818E1C0BA002950CF /* EditNoteVC.m in Sources */,
 				23EFDFCB18DD15950068772C /* CityView.m in Sources */,
 				23EFE00318DDFC690068772C /* AFHTTPClient.m in Sources */,
 				23EFE00818DDFC690068772C /* AFPropertyListRequestOperation.m in Sources */,
