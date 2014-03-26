@@ -45,4 +45,26 @@
     return self;
 }
 
+- (City *)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+
+    if (self) {
+        self.name = [aDecoder decodeObjectForKey:@"name"];
+        self.state = [aDecoder decodeObjectForKey:@"state"];
+        self.population = [aDecoder decodeObjectForKey:@"population"];
+        self.notes = [aDecoder decodeObjectForKey:@"notes"];
+    }
+
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:self.name forKey:@"name"];
+    [aCoder encodeObject:self.state forKey:@"state"];
+    [aCoder encodeObject:self.population forKey:@"population"];
+    [aCoder encodeObject:self.notes forKey:@"notes"];
+}
+
 @end

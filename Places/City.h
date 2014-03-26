@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface City : NSObject
+@interface City : NSObject <NSCoding>
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *state;
@@ -16,5 +16,7 @@
 @property (strong, nonatomic) NSString *notes;
 
 - (id)initWithJSON;
+- (City *)initWithCoder:(NSCoder *)aDecoder;
+- (void)encodeWithCoder:(NSCoder *)aCoder;
 
 @end
