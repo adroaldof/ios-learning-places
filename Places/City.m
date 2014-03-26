@@ -45,6 +45,13 @@
     return self;
 }
 
++ (NSString *)getPathToArchive
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES);
+    NSString *docsDir = [paths objectAtIndex:0];
+    return [docsDir stringByAppendingPathComponent:@"city.model"];
+}
+
 - (City *)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super init];

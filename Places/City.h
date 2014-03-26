@@ -16,6 +16,7 @@
 @property (strong, nonatomic) NSString *notes;
 
 - (id)initWithJSON;
++ (NSString *)getPathToArchive;
 - (City *)initWithCoder:(NSCoder *)aDecoder;
 - (void)encodeWithCoder:(NSCoder *)aCoder;
 
