@@ -52,6 +52,16 @@
     return [docsDir stringByAppendingPathComponent:@"city.model"];
 }
 
++ (void)saveCity:(City *)aCity
+{
+    [NSKeyedArchiver archiveRootObject:aCity toFile:[City getPathToArchive]];
+}
+
++ (City *)getCity
+{
+    return [NSKeyedUnarchiver unarchiveObjectWithFile:[City getPathToArchive]];
+}
+
 - (City *)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super init];

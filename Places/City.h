@@ -17,6 +17,8 @@
 
 - (id)initWithJSON;
 + (NSString *)getPathToArchive;
++ (void)saveCity:(City *)aCity;
++ (City *)getCity;
 - (City *)initWithCoder:(NSCoder *)aDecoder;
 - (void)encodeWithCoder:(NSCoder *)aCoder;
 
