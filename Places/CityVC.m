@@ -83,6 +83,10 @@
                                                  name:UIApplicationDidEnterBackgroundNotification
                                                object:nil];
 
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(enteringForeground)
+                                                 name:UIApplicationWillEnterForegroundNotification
+                                               object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -108,6 +112,11 @@
 - (void)enteringBackground
 {
     [City saveCity:self.city];
+}
+
+- (void)enteringForeground
+{
+    self.city = [City getCity];
 }
 
 @end

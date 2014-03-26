@@ -24,5 +24,6 @@
 
 - (void)dataRetrieved;
 - (void)enteringBackground;
+- (void)enteringForeground;
 
 @end
