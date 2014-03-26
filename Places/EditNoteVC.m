@@ -64,12 +64,14 @@
 - (void)savePressed
 {
     self.city.notes = self.notesField.text;
+    [City saveCity:self.city];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     self.city.notes = self.notesField.text;
+    [City saveCity:self.city];
     [textField resignFirstResponder];
     return YES;
 }
