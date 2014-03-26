@@ -79,13 +79,6 @@
                                                object:nil];
 }
 
-- (void)loadView
-{
-    CGRect viewRect = [[UIScreen mainScreen] bounds];
-    self.cityView = [[CityView alloc] initWithFrame:viewRect];
-    self.view = self.cityView;
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

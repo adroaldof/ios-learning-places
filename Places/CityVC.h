@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "City.h"
-#import "CityView.h"
 
 @interface CityVC : UIViewController
 
 @property (strong, nonatomic) City *city;
-@property (strong, nonatomic) CityView *cityView;
 @property (strong, nonatomic) UIScrollView *scrollView;
 
 @property (strong, nonatomic) UILabel *nameLabel;
