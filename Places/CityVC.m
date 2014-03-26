@@ -7,6 +7,7 @@
 //
 
 #import "CityVC.h"
+#import "EditNoteVC.h"
 
 @interface CityVC ()
 
@@ -20,6 +21,10 @@
     if (self) {
         self.title = @"City";
         self.tabBarItem.image = [UIImage imageNamed:@"direction-path"];
+        UIBarButtonItem *editNotes = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
+                                                                                   target:self
+                                                                                   action:@selector(editPressed)];
+        self.navigationItem.rightBarButtonItem = editNotes;
     }
     return self;
 }
@@ -94,4 +99,10 @@
     self.notesData.text = self.city.notes;
 }
 
+- (void)editPressed
+{
+    EditNoteVC *editNoteVC = [[EditNoteVC alloc] init];
+    editNoteVC.city = self.city;
+    [self presentViewController:editNoteVC animated:YES completion:nil];
+}
 @end
