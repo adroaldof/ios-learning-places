@@ -33,6 +33,8 @@
             self.population = JSON[@"population"];
             self.notes = @"No notes yet";
 
+            [City saveCity:self];
+
             [[NSNotificationCenter defaultCenter] postNotificationName:@"initWithJSONFinishLoading" object:Nil];
 
           } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
