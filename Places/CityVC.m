@@ -94,6 +94,11 @@
     [super didReceiveMemoryWarning];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.notesData.text = self.city.notes;
+}
+
 - (void)dataRetrieved
 {
     self.nameLabel.text = self.city.name;
