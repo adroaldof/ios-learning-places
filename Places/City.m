@@ -49,7 +49,7 @@
 
 + (NSString *)getPathToArchive
 {
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES);
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *docsDir = [paths objectAtIndex:0];
     return [docsDir stringByAppendingPathComponent:@"city.model"];
 }
