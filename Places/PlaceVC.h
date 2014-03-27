@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Place.h"
 
 @interface PlaceVC : UIViewController
+
+@property (strong, nonatomic) Place *place;
+@property (strong, nonatomic) UILabel *placeNameLabel;
+@property (strong, nonatomic) UILabel *placeDescriptionLabel;
 
 @end

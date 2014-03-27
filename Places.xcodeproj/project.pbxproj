@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		23AD7E8818E1C0BA002950CF /* EditNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD7E8718E1C0BA002950CF /* EditNoteVC.m */; };
+		234E66AD18E082410088A416 /* PlaceTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E66AC18E082410088A416 /* PlaceTableVC.m */; };
+		234E66B018E090FE0088A416 /* PlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E66AF18E090FE0088A416 /* PlaceVC.m */; };
 		23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */; };
 		23EFDFBC18DCC1850068772C /* CityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFBB18DCC1850068772C /* CityVC.m */; };
 		23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBD18DCC6AF0068772C /* map-pin.png */; };
 		23EFDFC018DCC6E40068772C /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBF18DCC6E40068772C /* star.png */; };
 		23EFDFC218DCC7C10068772C /* direction-path.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFC118DCC7C10068772C /* direction-path.png */; };
 		23EFDFD118DDF0A20068772C /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFD018DDF0A20068772C /* City.m */; };
+		23EFDFC518DCCA590068772C /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFC418DCCA590068772C /* Place.m */; };
 		23EFE00318DDFC690068772C /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF118DDFC690068772C /* AFHTTPClient.m */; };
 		23EFE00418DDFC690068772C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF318DDFC690068772C /* AFHTTPRequestOperation.m */; };
 		23EFE00518DDFC690068772C /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF518DDFC690068772C /* AFImageRequestOperation.m */; };
@@ -30,7 +33,6 @@
 		23F3557918DB3314009D844A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23F3557718DB3314009D844A /* InfoPlist.strings */; };
 		23F3557B18DB3314009D844A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3557A18DB3314009D844A /* main.m */; };
 		23F3557F18DB3314009D844A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3557E18DB3314009D844A /* AppDelegate.m */; };
-		23F3558818DB3314009D844A /* PlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3558718DB3314009D844A /* PlaceVC.m */; };
 		23F3558A18DB3314009D844A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F3558918DB3314009D844A /* Images.xcassets */; };
 		23F3559118DB3314009D844A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3559018DB3314009D844A /* XCTest.framework */; };
 		23F3559218DB3314009D844A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3556E18DB3314009D844A /* Foundation.framework */; };
@@ -52,6 +54,10 @@
 /* Begin PBXFileReference section */
 		23AD7E8618E1C0BA002950CF /* EditNoteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNoteVC.h; sourceTree = "<group>"; };
 		23AD7E8718E1C0BA002950CF /* EditNoteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNoteVC.m; sourceTree = "<group>"; };
+		234E66AB18E082410088A416 /* PlaceTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableVC.h; sourceTree = "<group>"; };
+		234E66AC18E082410088A416 /* PlaceTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableVC.m; sourceTree = "<group>"; };
+		234E66AE18E090FE0088A416 /* PlaceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceVC.h; sourceTree = "<group>"; };
+		234E66AF18E090FE0088A416 /* PlaceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceVC.m; sourceTree = "<group>"; };
 		23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPlacesVC.h; sourceTree = "<group>"; };
 		23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPlacesVC.m; sourceTree = "<group>"; };
 		23EFDFBA18DCC1850068772C /* CityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityVC.h; sourceTree = "<group>"; };
@@ -61,6 +67,8 @@
 		23EFDFC118DCC7C10068772C /* direction-path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "direction-path.png"; path = "../../Documents/iconbeast lite - png/direction-path.png"; sourceTree = "<group>"; };
 		23EFDFCF18DDF0A20068772C /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
 		23EFDFD018DDF0A20068772C /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		23EFDFC318DCCA590068772C /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		23EFDFC418DCCA590068772C /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 		23EFDFF018DDFC690068772C /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		23EFDFF118DDFC690068772C /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		23EFDFF218DDFC690068772C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -92,8 +100,6 @@
 		23F3557C18DB3314009D844A /* Places-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Places-Prefix.pch"; sourceTree = "<group>"; };
 		23F3557D18DB3314009D844A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23F3557E18DB3314009D844A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23F3558618DB3314009D844A /* PlaceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceVC.h; sourceTree = "<group>"; };
-		23F3558718DB3314009D844A /* PlaceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceVC.m; sourceTree = "<group>"; };
 		23F3558918DB3314009D844A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23F3558F18DB3314009D844A /* PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F3559018DB3314009D844A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -131,6 +137,8 @@
 			children = (
 				23EFDFCF18DDF0A20068772C /* City.h */,
 				23EFDFD018DDF0A20068772C /* City.m */,
+				23EFDFC318DCCA590068772C /* Place.h */,
+				23EFDFC418DCCA590068772C /* Place.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -145,8 +153,10 @@
 		23EFDFB618DCC0370068772C /* Control */ = {
 			isa = PBXGroup;
 			children = (
-				23F3558618DB3314009D844A /* PlaceVC.h */,
-				23F3558718DB3314009D844A /* PlaceVC.m */,
+				234E66AE18E090FE0088A416 /* PlaceVC.h */,
+				234E66AF18E090FE0088A416 /* PlaceVC.m */,
+				234E66AB18E082410088A416 /* PlaceTableVC.h */,
+				234E66AC18E082410088A416 /* PlaceTableVC.m */,
 				23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */,
 				23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */,
 				23EFDFBA18DCC1850068772C /* CityVC.h */,
@@ -365,7 +375,6 @@
 				23EFE00E18DE03630068772C /* ViewController.m in Sources */,
 				23EFE00918DDFC690068772C /* AFURLConnectionOperation.m in Sources */,
 				23EFE00518DDFC690068772C /* AFImageRequestOperation.m in Sources */,
-				23F3558818DB3314009D844A /* PlaceVC.m in Sources */,
 				23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */,
 				23EFE00618DDFC690068772C /* AFJSONRequestOperation.m in Sources */,
 				23F3557F18DB3314009D844A /* AppDelegate.m in Sources */,
@@ -373,12 +382,15 @@
 				23AD7E8818E1C0BA002950CF /* EditNoteVC.m in Sources */,
 				23EFE00318DDFC690068772C /* AFHTTPClient.m in Sources */,
 				23EFE00818DDFC690068772C /* AFPropertyListRequestOperation.m in Sources */,
+				23EFDFC518DCCA590068772C /* Place.m in Sources */,
+				234E66B018E090FE0088A416 /* PlaceVC.m in Sources */,
 				23EFDFBC18DCC1850068772C /* CityVC.m in Sources */,
 				23F3557B18DB3314009D844A /* main.m in Sources */,
 				23EFDFD118DDF0A20068772C /* City.m in Sources */,
 				23EFE00718DDFC690068772C /* AFNetworkActivityIndicatorManager.m in Sources */,
 				23EFE00418DDFC690068772C /* AFHTTPRequestOperation.m in Sources */,
 				23EFE00A18DDFC690068772C /* AFXMLRequestOperation.m in Sources */,
+				234E66AD18E082410088A416 /* PlaceTableVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
