@@ -19,6 +19,11 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"Edit Note";
+
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(saveNoteWhenClossing)
+                                                     name:UIApplicationDidEnterBackgroundNotification
+                                                   object:nil];
     }
     return self;
 }
@@ -74,6 +79,12 @@
     [City saveCity:self.city];
     [textField resignFirstResponder];
     return YES;
+}
+
+- (void)saveNoteWhenClossing
+{
+    self.city.notes = self.notesField.text;
+    [City saveCity:self.city];
 }
 
 @end

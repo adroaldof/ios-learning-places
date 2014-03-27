@@ -18,5 +18,6 @@
 @property (strong, nonatomic) UITextField *notesField;
 
 - (void)savePressed;
+- (void)saveNoteWhenClossing;
 
 @end
