@@ -14,6 +14,7 @@
 @property (strong, nonatomic) City *city;
 
 @property (strong, nonatomic) UIScrollView *scrollView;
+@property (strong, nonatomic) UILabel *cityNameLabel;
 @property (strong, nonatomic) UILabel *notesLabel;
 @property (strong, nonatomic) UITextField *notesField;
 

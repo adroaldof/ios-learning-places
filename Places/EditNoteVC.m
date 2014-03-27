@@ -38,6 +38,14 @@
     self.scrollView.contentSize = CGSizeMake(320, 520);
     [self.view addSubview:self.scrollView];
 
+    self.cityNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 80)];
+    self.cityNameLabel.text = @"CITY";
+    self.cityNameLabel.textColor = [UIColor whiteColor];
+    self.cityNameLabel.textAlignment = NSTextAlignmentCenter;
+    self.cityNameLabel.font = [UIFont boldSystemFontOfSize:30.0];
+    self.cityNameLabel.backgroundColor = [UIColor blackColor];
+    [self.scrollView addSubview:self.cityNameLabel];
+
     self.notesLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 90, 280, 40)];
     self.notesLabel.text = @"Edit note";
     [self.scrollView addSubview:self.notesLabel];
@@ -63,6 +71,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    self.cityNameLabel.text = self.city.name;
     self.notesField.text = self.city.notes;
 }
 
@@ -85,6 +94,11 @@
 {
     self.city.notes = self.notesField.text;
     [City saveCity:self.city];
+}
+
+- (void)cancelPressed
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
