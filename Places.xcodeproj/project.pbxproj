@@ -10,7 +10,6 @@
 		23AD7E8818E1C0BA002950CF /* EditNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD7E8718E1C0BA002950CF /* EditNoteVC.m */; };
 		234E66AD18E082410088A416 /* PlaceTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E66AC18E082410088A416 /* PlaceTableVC.m */; };
 		234E66B018E090FE0088A416 /* PlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E66AF18E090FE0088A416 /* PlaceVC.m */; };
-		23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */; };
 		23EFDFBC18DCC1850068772C /* CityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFBB18DCC1850068772C /* CityVC.m */; };
 		23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBD18DCC6AF0068772C /* map-pin.png */; };
 		23EFDFC018DCC6E40068772C /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBF18DCC6E40068772C /* star.png */; };
@@ -59,8 +58,6 @@
 		234E66AC18E082410088A416 /* PlaceTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableVC.m; sourceTree = "<group>"; };
 		234E66AE18E090FE0088A416 /* PlaceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceVC.h; sourceTree = "<group>"; };
 		234E66AF18E090FE0088A416 /* PlaceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceVC.m; sourceTree = "<group>"; };
-		23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPlacesVC.h; sourceTree = "<group>"; };
-		23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPlacesVC.m; sourceTree = "<group>"; };
 		23EFDFBA18DCC1850068772C /* CityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityVC.h; sourceTree = "<group>"; };
 		23EFDFBB18DCC1850068772C /* CityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityVC.m; sourceTree = "<group>"; };
 		23EFDFBD18DCC6AF0068772C /* map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-pin.png"; path = "../../Documents/iconbeast lite - png/map-pin.png"; sourceTree = "<group>"; };
@@ -162,8 +159,6 @@
 				234E66AC18E082410088A416 /* PlaceTableVC.m */,
 				23FE276818E9AFC8007E3FD0 /* InterestingPlacesTableVC.h */,
 				23FE276918E9AFC8007E3FD0 /* InterestingPlacesTableVC.m */,
-				23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */,
-				23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */,
 				23EFDFBA18DCC1850068772C /* CityVC.h */,
 				23EFDFBB18DCC1850068772C /* CityVC.m */,
 				23AD7E8618E1C0BA002950CF /* EditNoteVC.h */,
@@ -380,7 +375,6 @@
 				23EFE00E18DE03630068772C /* ViewController.m in Sources */,
 				23EFE00918DDFC690068772C /* AFURLConnectionOperation.m in Sources */,
 				23EFE00518DDFC690068772C /* AFImageRequestOperation.m in Sources */,
-				23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */,
 				23EFE00618DDFC690068772C /* AFJSONRequestOperation.m in Sources */,
 				23F3557F18DB3314009D844A /* AppDelegate.m in Sources */,
 				23EFE00B18DDFC690068772C /* UIImageView+AFNetworking.m in Sources */,
