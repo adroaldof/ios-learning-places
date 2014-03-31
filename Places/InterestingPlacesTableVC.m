@@ -18,7 +18,8 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        self.title = @"Interesting Places";
+        self.tabBarItem.image = [UIImage imageNamed:@"star"];
     }
     return self;
 }
