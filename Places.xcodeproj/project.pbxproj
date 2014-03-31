@@ -39,6 +39,7 @@
 		23F3559318DB3314009D844A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3557218DB3314009D844A /* UIKit.framework */; };
 		23F3559B18DB3314009D844A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23F3559918DB3314009D844A /* InfoPlist.strings */; };
 		23F3559D18DB3314009D844A /* PlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3559C18DB3314009D844A /* PlacesTests.m */; };
+		23FE276A18E9AFC8007E3FD0 /* InterestingPlacesTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FE276918E9AFC8007E3FD0 /* InterestingPlacesTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		23F3559818DB3314009D844A /* PlacesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlacesTests-Info.plist"; sourceTree = "<group>"; };
 		23F3559A18DB3314009D844A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23F3559C18DB3314009D844A /* PlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTests.m; sourceTree = "<group>"; };
+		23FE276818E9AFC8007E3FD0 /* InterestingPlacesTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPlacesTableVC.h; sourceTree = "<group>"; };
+		23FE276918E9AFC8007E3FD0 /* InterestingPlacesTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPlacesTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 				234E66AF18E090FE0088A416 /* PlaceVC.m */,
 				234E66AB18E082410088A416 /* PlaceTableVC.h */,
 				234E66AC18E082410088A416 /* PlaceTableVC.m */,
+				23FE276818E9AFC8007E3FD0 /* InterestingPlacesTableVC.h */,
+				23FE276918E9AFC8007E3FD0 /* InterestingPlacesTableVC.m */,
 				23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */,
 				23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */,
 				23EFDFBA18DCC1850068772C /* CityVC.h */,
@@ -390,6 +395,7 @@
 				23EFE00718DDFC690068772C /* AFNetworkActivityIndicatorManager.m in Sources */,
 				23EFE00418DDFC690068772C /* AFHTTPRequestOperation.m in Sources */,
 				23EFE00A18DDFC690068772C /* AFXMLRequestOperation.m in Sources */,
+				23FE276A18E9AFC8007E3FD0 /* InterestingPlacesTableVC.m in Sources */,
 				234E66AD18E082410088A416 /* PlaceTableVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
