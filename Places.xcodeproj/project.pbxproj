@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23AD7E8818E1C0BA002950CF /* EditNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD7E8718E1C0BA002950CF /* EditNoteVC.m */; };
 		234E66AD18E082410088A416 /* PlaceTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E66AC18E082410088A416 /* PlaceTableVC.m */; };
 		234E66B018E090FE0088A416 /* PlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 234E66AF18E090FE0088A416 /* PlaceVC.m */; };
 		23EFDFB918DCC1700068772C /* InterestingPlacesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */; };
+		23AD7E8818E1C0BA002950CF /* EditNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD7E8718E1C0BA002950CF /* EditNoteVC.m */; };
 		23EFDFBC18DCC1850068772C /* CityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFBB18DCC1850068772C /* CityVC.m */; };
 		23EFDFBE18DCC6AF0068772C /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBD18DCC6AF0068772C /* map-pin.png */; };
 		23EFDFC018DCC6E40068772C /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFBF18DCC6E40068772C /* star.png */; };
 		23EFDFC218DCC7C10068772C /* direction-path.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EFDFC118DCC7C10068772C /* direction-path.png */; };
-		23EFDFD118DDF0A20068772C /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFD018DDF0A20068772C /* City.m */; };
 		23EFDFC518DCCA590068772C /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFC418DCCA590068772C /* Place.m */; };
+		23EFDFD118DDF0A20068772C /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFD018DDF0A20068772C /* City.m */; };
 		23EFE00318DDFC690068772C /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF118DDFC690068772C /* AFHTTPClient.m */; };
 		23EFE00418DDFC690068772C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF318DDFC690068772C /* AFHTTPRequestOperation.m */; };
 		23EFE00518DDFC690068772C /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFDFF518DDFC690068772C /* AFImageRequestOperation.m */; };
@@ -52,23 +52,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23AD7E8618E1C0BA002950CF /* EditNoteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNoteVC.h; sourceTree = "<group>"; };
-		23AD7E8718E1C0BA002950CF /* EditNoteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNoteVC.m; sourceTree = "<group>"; };
 		234E66AB18E082410088A416 /* PlaceTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableVC.h; sourceTree = "<group>"; };
 		234E66AC18E082410088A416 /* PlaceTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableVC.m; sourceTree = "<group>"; };
 		234E66AE18E090FE0088A416 /* PlaceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceVC.h; sourceTree = "<group>"; };
 		234E66AF18E090FE0088A416 /* PlaceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceVC.m; sourceTree = "<group>"; };
 		23EFDFB718DCC1700068772C /* InterestingPlacesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPlacesVC.h; sourceTree = "<group>"; };
 		23EFDFB818DCC1700068772C /* InterestingPlacesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPlacesVC.m; sourceTree = "<group>"; };
+		23AD7E8618E1C0BA002950CF /* EditNoteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNoteVC.h; sourceTree = "<group>"; };
+		23AD7E8718E1C0BA002950CF /* EditNoteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNoteVC.m; sourceTree = "<group>"; };
 		23EFDFBA18DCC1850068772C /* CityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityVC.h; sourceTree = "<group>"; };
 		23EFDFBB18DCC1850068772C /* CityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityVC.m; sourceTree = "<group>"; };
 		23EFDFBD18DCC6AF0068772C /* map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-pin.png"; path = "../../Documents/iconbeast lite - png/map-pin.png"; sourceTree = "<group>"; };
 		23EFDFBF18DCC6E40068772C /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "../../Documents/iconbeast lite - png/star.png"; sourceTree = "<group>"; };
 		23EFDFC118DCC7C10068772C /* direction-path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "direction-path.png"; path = "../../Documents/iconbeast lite - png/direction-path.png"; sourceTree = "<group>"; };
-		23EFDFCF18DDF0A20068772C /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
-		23EFDFD018DDF0A20068772C /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 		23EFDFC318DCCA590068772C /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
 		23EFDFC418DCCA590068772C /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		23EFDFCF18DDF0A20068772C /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		23EFDFD018DDF0A20068772C /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 		23EFDFF018DDFC690068772C /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		23EFDFF118DDFC690068772C /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		23EFDFF218DDFC690068772C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
