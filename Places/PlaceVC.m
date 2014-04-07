@@ -74,6 +74,8 @@
                                           otherButtonTitles:nil];
 
     [alert show];
+
+    [sender removeFromSuperview];
 }
 
 @end
