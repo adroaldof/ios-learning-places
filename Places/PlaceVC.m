@@ -65,6 +65,8 @@
     [tempArray addObject:self.place];
     self.city.interestingPlaces = [[NSArray alloc] initWithArray:tempArray];
 
+    [self.tabBarController.tabBar.items[1] setBadgeValue:[NSString stringWithFormat:@"%lu", self.city.interestingPlaces.count]];
+
     [City saveCity:self.city];
 
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Place Favorited"
