@@ -56,6 +56,16 @@
     [addInterestingBtn addTarget:self action:@selector(makeThisPlaceInteresting:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:addInterestingBtn];
 
+- (void)makeThisPlaceInteresting:(id)sender
+{
+    self.city = [City getCity];
+
+    NSMutableArray *tempArray = [[NSMutableArray alloc] initWithArray:self.city.interestingPlaces];
+
+    [tempArray addObject:self.place];
+    self.city.interestingPlaces = [[NSArray alloc] initWithArray:tempArray];
+
+    [City saveCity:self.city];
 }
 
 @end
