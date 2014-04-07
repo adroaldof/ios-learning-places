@@ -8,11 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Place : NSObject
+@interface Place : NSObject <NSCoding>
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *description;
 
 - (id)initWithName:(NSString *)aName description:(NSString *)aDescription;
+
+- (NSString *)getPathToArchive;
+- (Place *)initWithCoder:(NSCoder *)aDecoder;
+- (void)encodeWithCoder:(NSCoder *)aCoder;
+
 
 @end

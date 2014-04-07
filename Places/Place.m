@@ -29,4 +29,29 @@
     return self;
 }
 
+- (NSString *)getPathToArchive
+{
+    NSArray *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *docsDir = [path objectAtIndex:0];
+    return [docsDir stringByAppendingString:@"place.model"];
+}
+
+- (Place *)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+
+    if (self) {
+        self.name = [aDecoder decodeObjectForKey:@"name"];
+        self.description = [aDecoder decodeObjectForKey:@"description"];
+    }
+
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:self.name forKey:@"name"];
+    [aCoder encodeObject:self.description forKey:@"description"];
+}
+
 @end
