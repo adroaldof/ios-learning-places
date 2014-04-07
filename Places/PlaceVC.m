@@ -49,6 +49,13 @@
 {
     self.placeNameLabel.text = self.place.name;
     self.placeDescriptionLabel.text = self.place.description;
+
+    UIButton *addInterestingBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    addInterestingBtn.frame = CGRectMake(20, 180, 290, 30);
+    [addInterestingBtn setTitle:@"Mark as interesting" forState:UIControlStateNormal];
+    [addInterestingBtn addTarget:self action:@selector(makeThisPlaceInteresting:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:addInterestingBtn];
+
 }
 
 @end
