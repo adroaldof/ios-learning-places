@@ -32,6 +32,7 @@
             self.state = JSON[@"state"];
             self.population = JSON[@"population"];
             self.notes = @"No notes yet";
+            self.interestingPlaces = nil;
 
             [City saveCity:self];
 
@@ -73,6 +74,7 @@
         self.state = [aDecoder decodeObjectForKey:@"state"];
         self.population = [aDecoder decodeObjectForKey:@"population"];
         self.notes = [aDecoder decodeObjectForKey:@"notes"];
+        self.interestingPlaces = [aDecoder decodeObjectForKey:@"interestingPlaces"];
     }
 
     return self;
@@ -84,6 +86,9 @@
     [aCoder encodeObject:self.state forKey:@"state"];
     [aCoder encodeObject:self.population forKey:@"population"];
     [aCoder encodeObject:self.notes forKey:@"notes"];
+    [aCoder encodeObject:self.interestingPlaces forKey:@"interestingPlaces"];
+}
+
 }
 
 @end

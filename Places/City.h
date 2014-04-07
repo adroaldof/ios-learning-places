@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Place.h"
 
 @interface City : NSObject <NSCoding>
 
@@ -14,6 +15,7 @@
 @property (strong, nonatomic) NSString *state;
 @property (strong, nonatomic) NSNumber *population;
 @property (strong, nonatomic) NSString *notes;
+@property (strong, nonatomic) NSArray *interestingPlaces;
 
 - (id)initWithJSON;
 + (NSString *)getPathToArchive;
