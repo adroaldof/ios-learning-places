@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class City;
 
 @interface InterestingPlacesTableVC : UITableViewController
+
+@property (strong, nonatomic) City *city;
 
 @end
