@@ -10,6 +10,7 @@
 #import "PlaceTableVC.h"
 #import "InterestingPlacesTableVC.h"
 #import "CityVC.h"
+#import "City.h"
 
 @implementation AppDelegate
 
@@ -26,6 +27,11 @@
 
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     [tabBarController setViewControllers:@[placeTableNavCtrl, interestingPlacesTableNavCtrl, cityNavCtrl] animated:YES];
+
+    City *city = [City getCity];
+    if (city && city.interestingPlaces.count > 0) {
+        [tabBarController.tabBar.items[1] setBadgeValue:[NSString stringWithFormat:@"%lu", city.interestingPlaces.count]];
+    }
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;
