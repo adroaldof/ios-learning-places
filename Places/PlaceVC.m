@@ -66,6 +66,14 @@
     self.city.interestingPlaces = [[NSArray alloc] initWithArray:tempArray];
 
     [City saveCity:self.city];
+
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Place Favorited"
+                                                    message:@"This place is now on you favorites list"
+                                                   delegate:nil
+                                          cancelButtonTitle:@"Ok"
+                                          otherButtonTitles:nil];
+
+    [alert show];
 }
 
 @end
