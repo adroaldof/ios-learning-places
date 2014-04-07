@@ -89,6 +89,4 @@
     [aCoder encodeObject:self.interestingPlaces forKey:@"interestingPlaces"];
 }
 
-}
-
 @end
